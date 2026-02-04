@@ -2,10 +2,13 @@ import math
 import time
 import os
 
+# ref: https://www.youtube.com/watch?v=0E0UBphVRhY
+#      https://www.youtube.com/watch?v=p09i_hoFdd0
+
 # 初始化全域變數
 A, B, C = 0.0, 0.0, 0.0
 width, height = 160, 44
-background_ascii_code = '.'
+background_ascii_code = ' '
 distance_from_cam = 100
 K1 = 40
 increment_speed = 0.6
